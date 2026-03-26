@@ -1,4 +1,4 @@
-# Automated Cephalometric Points Marking System
+# Supplemental Code for Automated Cephalometric Points Marking System
 
 ## Introduction
 This repository contains the source code used in the research described in the article: “Automated Cephalometric Points Marking System”
