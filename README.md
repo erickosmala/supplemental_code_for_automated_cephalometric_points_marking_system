@@ -1,7 +1,7 @@
 # Supplemental Code for Automated Cephalometric Points Marking System
 
 ## Introduction
-This repository contains the source code used in the research described in the article: “Automated Cephalometric Points Marking System”
+This repository contains the source code used in the research described in the article: “Automated Cephalometric Points Marking System”. The code uses the tool discussed in the article: Anatomic-Landmark-Detection [1].
 
 ## Requeirements
 - Python 3.10
@@ -18,3 +18,5 @@ To perform the process of training the model on the proposed dataset, run the `t
 
 ## Prediction
 In order to detect the location of landmarks for a given set of images, you need to run the `predict.py` script. In this script you need to specify the path to the model, by default it is set to the base model discussed in the article. Information about the data for the prediction process can be found in the `config.py` file. 
+
+[1] R. Chen, Y. Ma, N. Chen, D. Lee, and W. Wang, “Cephalometric landmark detection by attentive feature pyramid fusion and regression-voting,” in Medical Image Computing and Computer Assisted Intervention – MICCAI 2019: 22nd International Conference, Shenzhen, China, October 13–17, 2019, Proceedings, Part III. Berlin, Heidelberg: Springer-Verlag, 2019, p. 873–881. [Online]. Available: https://doi.org/10.1007/978-3-030-32248-9_97
