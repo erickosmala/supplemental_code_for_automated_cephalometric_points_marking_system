@@ -9,7 +9,7 @@ class ConfigProfile:
         self.spacing = 0.1
         self.R1 = 41
         self.R2 = 41
-        self.epochs = 100
+        self.epochs = 350
         self.data_enhanceNum = 1
         self.dataRoot = "data/"
         self.supervised_dataset_train = "images_to_process/images/"
